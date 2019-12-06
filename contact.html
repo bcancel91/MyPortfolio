@@ -1,55 +1,63 @@
-<html lang="en">
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+       
+            <meta charset="UTF-8">
+        <title>My Portfolio</title>
 
-<head>
-    <meta charset="UTF-8">
-    
-    <title>Contact</title>
-    <link rel="stylesheet" type="text/css" href="assets/style.css">
-</head>
+        <link rel="stylesheet" 
+        href="assets/css/style.css">
 
-<body>
+        <script src="https://kit.fontawesome.com/85b973685b.js"
+         crossorigin="anonymous">
+         </script>
 
-        <div class="container">
-          
-                <div class="box-1">
-                    <b>Brian Cancel</b>
-                </div>
-        
-                <a class="right-1"href="index.html">About</a>
-                <a class="right-2"href="contact.html">Contact</a>
-                <a class="right-3"href="Portfolio.html">Portfolio</a>
-            </div>
-    
-    <section class="wrapper">
-        <p>
-            <h1>Contact</h1>
-            <hr>
+    </head>
 
-            <div class="Contact">
-                Name
-            </div>
-                <textarea rows="10" cols="100">type text here</textarea>
-    <imput type="submit" name="submit" value="submit">
+    <body>
+        <div class="container clearfix">
             
-
-            <div class="Contact">
-                Email </div>
-                
-                <textarea rows="10" cols="100">type text here</textarea>
-    <imput type="submit" name="submit" value="submit">
+            <div Class="nameBox">
+                    <h2>Brian Cancel</h2>
+            </div>
             
-
-            <div class="Contact">
-                Message
+    
+            <div class="box1">
+                    <a class="topRight3" href="contact.html">Contact</a> 
+                    <div class="VRL"></div>
+                    <a class="topRight2" href="portfolio.html">Portfolio</a>
+                    <div class="VRL"></div>
+                    <a class="topRight1" href="index.html">About Me</a>
                 </div>
-                <textarea rows="10" cols="100">type text here</textarea>
-                <imput type="submit" name="submit" value="submit">
+          </div>
 
-        
+    <div class="wrapper">
+        <h2 class="main">Contact</h2>
+    <hr>
+    <form>
+     
+            <div class="form-group">
+              <label for="exampleFormControlInput1">Name</label>
+              <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Your name">
+            </div>
 
-        </p>
-    </section>
-    <footer></footer>
+            <div class="form-group">
+                    <label for="exampleFormControlInput1">Email address</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="name@example.com ">
+            </div>
+           
+            <div class="form-group">
+              <label for="exampleFormControlTextarea1">Message</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <button>Submit</button>
 
+          </form>
+</div>
+
+    <footer class="footer">
+    Copyright  <i class="far fa-copyright"></i>
+
+    </footer>
 </body>
 </html>
