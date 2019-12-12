@@ -1,63 +1,102 @@
 <!DOCTYPE html>
-<html lang="en-US">
-    <head>
-       
-            <meta charset="UTF-8">
-        <title>My Portfolio</title>
+<html lang="en">
 
-        <link rel="stylesheet" 
-        href="assets/css/style.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
 
-        <script src="https://kit.fontawesome.com/85b973685b.js"
-         crossorigin="anonymous">
-         </script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
 
-    </head>
+</head>
 
-    <body>
-        <div class="container clearfix">
-            
-            <div Class="nameBox">
-                    <h2>Brian Cancel</h2>
+<body>
+    <div class="d-md-block d-none">
+        <div class="container">
+
+            <nav class="myName navbar">
+                <a class="navbar-brand" href="#">Brian Cancel</a>
+
+
+                <ul class="pages nav justify-content-end">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index1.html">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio2.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact2.html">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+
+        </div>
+    </div>
+    <div class="d-block d-md-none">
+
+
+        <nav class="navbar">
+            <a class="myName2 d-block  navbar-brand" href="#">Brian Cancel</a>
+
+
+            <ul class="pages2 nav">
+                <li class="nav-item">
+                    <a class="nav-link active" href="index1.html">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="portfolio2.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact2.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+
+    </div>
+
+    <div class="container">
+
+
+
+
+        <div class="row">
+            <div class="aboutMe col-lg-8 col-md-12">
+                <h3 class="mt-2">Contact</h3>
+                <hr>
+
+                <form>
+                    <div class="form-group">
+
+                        <label for="exampleInputEmail1">Name</label>
+                        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                            placeholder="Enter name">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                            placeholder="Enter email">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Message</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+
+
+
+
+
             </div>
-            
-    
-            <div class="box1">
-                    <a class="topRight3" href="contact.html">Contact</a> 
-                    <div class="VRL"></div>
-                    <a class="topRight2" href="portfolio.html">Portfolio</a>
-                    <div class="VRL"></div>
-                    <a class="topRight1" href="index.html">About Me</a>
-                </div>
-          </div>
+        </div>
+    </div>
 
-    <div class="wrapper">
-        <h2 class="main">Contact</h2>
-    <hr>
-    <form>
-     
-            <div class="form-group">
-              <label for="exampleFormControlInput1">Name</label>
-              <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Your name">
-            </div>
 
-            <div class="form-group">
-                    <label for="exampleFormControlInput1">Email address</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="name@example.com ">
-            </div>
-           
-            <div class="form-group">
-              <label for="exampleFormControlTextarea1">Message</label>
-              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-            </div>
-            <button>Submit</button>
 
-          </form>
-</div>
-
-    <footer class="footer">
-    Copyright  <i class="far fa-copyright"></i>
-
-    </footer>
 </body>
+
 </html>
