@@ -43,6 +43,7 @@ body {
     background-color: white;
     margin-top: 20px;
     min-height: 350px;
+    margin-bottom: 150px
 }
 .mePic {
     float: left;
@@ -54,4 +55,7 @@ width: 100%;
 h3 {
     color: teal;
    
+}
+.marg {
+    margin-bottom: 30px;
 }
